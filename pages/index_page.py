@@ -1,5 +1,5 @@
 import time
-
+import allure
 import pytest
 
 from base_object.base import BaseObject
@@ -39,6 +39,7 @@ class IndexPage(BaseObject, Assertion):
     def click_to_logout_btn(self):
         self.click(Locators.LOGOUT_BTN)
 
+    @allure.step('verify title text')
     def verify_title_text(self):
         self.assert_equal("Products", self.get_text(Locators.TITLE_TEXT))
 

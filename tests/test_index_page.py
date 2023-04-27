@@ -1,11 +1,18 @@
 import pytest
+import allure
 
 case_1 = ['standard_user', '', 'Epic sadface: Password is required']
 case_2 = ['', 'secret_sauce', 'Epic sadface: Username is required']
 case_3 = ['standard_user', '12345', 'Epic sadface: Username and password do not match any user in this service']
 case_4 = ['locked_out_user', 'secret_sauce', 'Epic sadface: Sorry, this user has been locked out.']
 
-
+@pytest.mark.ui
+@pytest.mark.smoke
+@allure.description('Testing successful login')
+@allure.label('owner', 'Sergey')
+@allure.title('Successful login')
+@allure.suite('Authorization suite')
+@allure.severity(allure.severity_level.BLOCKER)
 def test_login(index_page):
     index_page.login()
     index_page.verify_title_text()

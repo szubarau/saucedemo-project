@@ -1,0 +1,16 @@
+INFO     BaseObject:base.py:30 ('id', 'user-name'),standard_user text entered
+INFO     BaseObject:base.py:14 element ('id', 'user-name') is visible
+INFO     BaseObject:base.py:30 ('id', 'password'),secret _sauce text entered
+INFO     BaseObject:base.py:14 element ('id', 'password') is visible
+INFO     BaseObject:base.py:26 ('id', 'login-button') element clicked
+INFO     BaseObject:base.py:22 element ('id', 'login-button') is clickable
+INFO     BaseObject:base.py:34 ('class name', 'title') text received
+INFO     BaseObject:base.py:14 element ('class name', 'title') is visible
+INFO     BaseObject:base.py:30 ('id', 'user-name'),standard_user text entered
+INFO     BaseObject:base.py:14 element ('id', 'user-name') is visible
+INFO     BaseObject:base.py:30 ('id', 'password'),secret _sauce text entered
+INFO     BaseObject:base.py:14 element ('id', 'password') is visible
+INFO     BaseObject:base.py:26 ('id', 'login-button') element clicked
+INFO     BaseObject:base.py:22 element ('id', 'login-button') is clickable
+INFO     BaseObject:base.py:34 ('class name', 'title') text received
+INFO     BaseObject:base.py:14 element ('class name', 'title') is visible

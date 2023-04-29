@@ -1,5 +1,6 @@
 import pytest
 import allure
+from main import USERNAME,PASSWORD
 
 case_1 = ['standard_user', '', 'Epic sadface: Password is required']
 case_2 = ['', 'secret_sauce', 'Epic sadface: Username is required']
@@ -14,12 +15,17 @@ case_4 = ['locked_out_user', 'secret_sauce', 'Epic sadface: Sorry, this user has
 @allure.suite('Authorization suite')
 @allure.severity(allure.severity_level.BLOCKER)
 def test_login(index_page):
-    index_page.login()
+    index_page.login(USERNAME,PASSWORD)
     index_page.verify_title_text()
 
-
+@pytest.mark.ui
+@pytest.mark.smoke
+@allure.description('Testing successful logout')
+@allure.label('owner', 'Sergey')
+@allure.title('Successful logout')
+@allure.suite('Authorization suite')
 def test_logout(index_page):
-    index_page.login()
+    index_page.login(USERNAME,PASSWORD)
     index_page.logout()
     index_page.verify_title_text_logout()
 

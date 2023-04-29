@@ -19,3 +19,59 @@
 ******* 04/19/2023 09: 14: 05 PM - INFO - element ('id', 'user-name') is visible
 ******* 04/19/2023 09: 14: 05 PM - INFO - element ('id', 'password') is visible
 ******* 04/19/2023 09: 14: 05 PM - INFO - element ('xpath', "//h3[@data-test='error']") is visible
+******* 04/28/2023 10: 21: 43 AM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 10: 21: 43 AM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 10: 21: 43 AM - INFO - ('id', 'password'),secret_sauce text entered
+******* 04/28/2023 10: 21: 43 AM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 10: 21: 43 AM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 10: 21: 43 AM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 10: 21: 43 AM - INFO - ('class name', 'title') text received
+******* 04/28/2023 10: 21: 43 AM - INFO - element ('class name', 'title') is visible
+******* 04/28/2023 10: 22: 44 AM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 10: 22: 44 AM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 10: 22: 45 AM - INFO - ('id', 'password'),secret_sauce text entered
+******* 04/28/2023 10: 22: 45 AM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 10: 22: 45 AM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 10: 22: 45 AM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 10: 22: 45 AM - INFO - ('id', 'react-burger-menu-btn') element clicked
+******* 04/28/2023 10: 22: 45 AM - INFO - element ('id', 'react-burger-menu-btn') is clickable
+******* 04/28/2023 10: 22: 45 AM - INFO - ('id', 'logout_sidebar_link') element clicked
+******* 04/28/2023 10: 22: 45 AM - INFO - element ('id', 'logout_sidebar_link') is clickable
+******* 04/28/2023 10: 22: 45 AM - INFO - ('class name', 'login_logo') text received
+******* 04/28/2023 10: 22: 45 AM - INFO - element ('class name', 'login_logo') is visible
+******* 04/28/2023 04: 11: 33 PM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 04: 11: 33 PM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 04: 11: 33 PM - INFO - ('id', 'password'),secret _sauce text entered
+******* 04/28/2023 04: 11: 33 PM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 04: 11: 34 PM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 04: 11: 34 PM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 04: 11: 34 PM - INFO - ('class name', 'title') text received
+******* 04/28/2023 04: 11: 34 PM - INFO - element ('class name', 'title') is visible
+******* 04/28/2023 04: 11: 44 PM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 04: 11: 44 PM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 04: 11: 44 PM - INFO - ('id', 'password'),secret _sauce text entered
+******* 04/28/2023 04: 11: 44 PM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 04: 11: 44 PM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 04: 11: 44 PM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 04: 11: 44 PM - INFO - ('class name', 'title') text received
+******* 04/28/2023 04: 11: 44 PM - INFO - element ('class name', 'title') is visible
+******* 04/28/2023 04: 12: 02 PM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 04: 12: 02 PM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 04: 12: 02 PM - INFO - ('id', 'password'),secret_sauce text entered
+******* 04/28/2023 04: 12: 02 PM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 04: 12: 02 PM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 04: 12: 02 PM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 04: 12: 03 PM - INFO - ('class name', 'title') text received
+******* 04/28/2023 04: 12: 03 PM - INFO - element ('class name', 'title') is visible
+******* 04/28/2023 04: 15: 22 PM - INFO - ('id', 'user-name'),standard_user text entered
+******* 04/28/2023 04: 15: 22 PM - INFO - element ('id', 'user-name') is visible
+******* 04/28/2023 04: 15: 22 PM - INFO - ('id', 'password'),secret_sauce text entered
+******* 04/28/2023 04: 15: 22 PM - INFO - element ('id', 'password') is visible
+******* 04/28/2023 04: 15: 22 PM - INFO - ('id', 'login-button') element clicked
+******* 04/28/2023 04: 15: 22 PM - INFO - element ('id', 'login-button') is clickable
+******* 04/28/2023 04: 15: 22 PM - INFO - ('id', 'react-burger-menu-btn') element clicked
+******* 04/28/2023 04: 15: 22 PM - INFO - element ('id', 'react-burger-menu-btn') is clickable
+******* 04/28/2023 04: 15: 22 PM - INFO - ('id', 'logout_sidebar_link') element clicked
+******* 04/28/2023 04: 15: 22 PM - INFO - element ('id', 'logout_sidebar_link') is clickable
+******* 04/28/2023 04: 15: 23 PM - INFO - ('class name', 'login_logo') text received
+******* 04/28/2023 04: 15: 23 PM - INFO - element ('class name', 'login_logo') is visible

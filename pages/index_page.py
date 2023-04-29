@@ -7,15 +7,13 @@ from base_object.locators import Locators
 from support.assertion import Assertion
 
 
-
-
 class IndexPage(BaseObject, Assertion):
 
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
 
-    def login(self,user_name,password):
+    def login(self, user_name, password):
         self.enter_user_name(text=user_name)
         self.enter_password(text=password)
         self.click_to_login_btn()
@@ -46,7 +44,5 @@ class IndexPage(BaseObject, Assertion):
     def verify_title_text_logout(self):
         self.assert_equal("Swag Labs", self.get_text(Locators.LOGOUT_TEXT))
 
-    def verify_title_text_unsuccessful_login(self,expected_result):
+    def verify_title_text_unsuccessful_login(self, expected_result):
         self.assert_equal(f"{expected_result}", self.get_text(Locators.ERROR_TEXT))
-
-

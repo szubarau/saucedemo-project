@@ -1,6 +1,6 @@
 import pytest
 import allure
-from main import USERNAME,PASSWORD
+from config import USERNAME,PASSWORD
 
 case_1 = ['standard_user', '', 'Epic sadface: Password is required']
 case_2 = ['', 'secret_sauce', 'Epic sadface: Username is required']

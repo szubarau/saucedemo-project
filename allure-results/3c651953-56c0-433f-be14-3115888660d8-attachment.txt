@@ -1,8 +1,0 @@
-[32mINFO    [0m BaseObject:base.py:30 ('id', 'user-name'),locked_out_user text entered
-[32mINFO    [0m BaseObject:base.py:14 element ('id', 'user-name') is visible
-[32mINFO    [0m BaseObject:base.py:30 ('id', 'password'),secret_sauce text entered
-[32mINFO    [0m BaseObject:base.py:14 element ('id', 'password') is visible
-[32mINFO    [0m BaseObject:base.py:26 ('id', 'login-button') element clicked
-[32mINFO    [0m BaseObject:base.py:22 element ('id', 'login-button') is clickable
-[32mINFO    [0m BaseObject:base.py:34 ('xpath', "//h3[@data-test='error']") text received
-[32mINFO    [0m BaseObject:base.py:14 element ('xpath', "//h3[@data-test='error']") is visible

@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="10.539" timestamp="2023-04-28T16:15:19.108931" hostname="cotvec-378"><testcase classname="tests.test_index_page" name="test_logout" time="6.437" /></testsuite></testsuites>

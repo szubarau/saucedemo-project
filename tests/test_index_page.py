@@ -2,9 +2,9 @@ import pytest
 import allure
 from config import USERNAME,PASSWORD
 
-case_1 = ['standard_user', '', 'Epic sadface: Password is required']
-case_2 = ['', 'secret_sauce', 'Epic sadface: Username is required']
-case_3 = ['standard_user', '12345', 'Epic sadface: Username and password do not match any user in this service']
+case_1 = [USERNAME, '', 'Epic sadface: Password is required']
+case_2 = ['', PASSWORD, 'Epic sadface: Username is required']
+case_3 = [USERNAME, '12345', 'Epic sadface: Username and password do not match any user in this service']
 case_4 = ['locked_out_user', 'secret_sauce', 'Epic sadface: Sorry, this user has been locked out.']
 
 @pytest.mark.ui

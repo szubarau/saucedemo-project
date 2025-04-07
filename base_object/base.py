@@ -2,8 +2,8 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from support.logger import log_method
 
-class BaseObject:
 
+class BaseObject:
     log = log_method()
 
     def __init__(self, driver):
@@ -33,5 +33,3 @@ class BaseObject:
     def get_text(self, locator):
         self.log.info(f'{locator} text received')
         return self.is_visible(locator).text
-
-
